@@ -8,7 +8,41 @@
 </head>
 
 <body>
+    <header>
+        <a href="./index.html">
+            <img src="./img/logo.png" alt="logo">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./article.html">blog</a>
+                </li>
+                <li>
+                    <a href="#">cv</a>
+                </li>
+                <li>
+                    <a href="#" class="active">&agrave; propos</a>
+                </li>
+                <li>
+                    <a href="./contact.html">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <form action="#">
+            <label for="username">Nom d'utilisteur</label>
+            <input type="text" id="username" placeholder="UserName" required>
+            <label for="mailaddress">Adresse mail</label>
+            <input type="email" id="mailadress" placeholder="adresse&#64;mail.com" required>
+            <label for="comment"></label>
+            <textarea name="comment" id="comment" placeholder="&eacute;crivez ici votre message" required></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
 
+        <img src="./img/illustration.png" alt="image">
+    </main>
 </body>
 
 </html>
