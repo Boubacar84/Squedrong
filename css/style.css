@@ -19,3 +19,17 @@ h1 {
     width: 50%;
     height: 50%;
 }
+
+
+main {
+    height: 500px;
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+h2 {
+    margin: 0;
+}
