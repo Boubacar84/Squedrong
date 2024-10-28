@@ -1,1 +1,7 @@
-ECHO is on.
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    font-size: 2.5rem;
+    color: pink;
+}
