@@ -22,7 +22,6 @@ h1 {
 
 
 main {
-    height: 500px;
     width: 90%;
     background: white;
     margin: 0 auto;
@@ -30,6 +29,6 @@ main {
 }
 
 
-h2 {
+h3 {
     margin: 0;
 }
