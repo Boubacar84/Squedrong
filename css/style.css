@@ -1,17 +1,21 @@
 @font-face {
-	font-family: "AbrilFatface";
-	src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+    font-family: "AbrilFatface";
+    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
 }
+
 @font-face {
-	font-family: "Montserrat";
-	src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+
 * {
     margin: 0%;
 }
-body{
+
+body {
     font-family: "Montserrat";
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -49,6 +53,7 @@ img {
     width: 200px;
     justify-content: space-evenly;
     color: #ffffff;
+    margin-bottom: 1rem;
 }
 
 #X,
@@ -65,6 +70,7 @@ img {
     justify-content: space-between;
     width: 1000px;
 }
+
 .articleholder {
     display: flex;
     flex-direction: row;
@@ -73,7 +79,8 @@ img {
     width: 100%;
     box-sizing: border-box;
 }
-.articleholder>div{
+
+.articleholder>div {
     width: 50%;
     box-sizing: border-box;
 }
@@ -83,25 +90,27 @@ main {
     justify-content: space-around;
 }
 
-header{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	height: fit-content;
-	box-sizing: border-box;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    box-sizing: border-box;
 }
-nav{
-	width: 40%;
+
+nav {
+    width: 40%;
     color: grey;
     text-decoration: none;
 }
-ul{
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	justify-content: space-evenly;
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 a {
@@ -109,5 +118,5 @@ a {
 }
 
 .active {
-	color:#5A47abff;
+    color: #5A47abff;
 }
