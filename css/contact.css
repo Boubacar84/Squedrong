@@ -9,15 +9,16 @@
 * {
 	margin: 0%;
 }
-body{
-	font-family: "Montserrat";
+body {
+    font-family: "Montserrat";
+    width: 70%;
+    margin: auto;
 }
 main {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-	width: 90%;
 	background: white;
 	margin: 0 auto;
 	padding: 15px;

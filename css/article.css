@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+body {
+    font-family: "Montserrat";
+    width: 70%;
+    margin: auto;
+}
 h1 {
     color: #d05270;
     font-family: Abril Fatface;
@@ -30,15 +35,7 @@ h3 {
     text-align: center;
 }
 
-body {
-    padding: 100px;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    margin-left: 10px;
-    width: 60%;
-    margin: auto;
 
-}
 
 .img img {
     margin: 10%;
@@ -70,44 +67,29 @@ footer {
 body {
     font-family: Montserrat;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    margin-top: 30px;
-    text-transform: uppercase;
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: fit-content;
+	box-sizing: border-box;
 }
-
-nav img {
-    transform: translateX(-20px);
+nav{
+	width: 40%;
 }
-
-nav ul {
-    display: flex;
-    list-style-type: none;
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
 }
-
-nav ul li {
-    margin: 0 20px;
-    color: grey;
-    font-size: 0.9rem;
+a{
+	text-decoration: none;
+	color: #888;
+	text-transform: uppercase;
 }
-
-nav ul a {
-    color: grey;
-    text-decoration: none;
-}
-
-nav ul li:first-child a {
-    color: #1b0ca3;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #1b0ca3;
+.active{
+	color:#5A47abff;
 }

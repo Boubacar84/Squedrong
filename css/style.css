@@ -14,6 +14,8 @@
 
 body {
     font-family: "Montserrat";
+    width: 70%;
+    margin: auto;
 }
 
 main {
@@ -25,7 +27,23 @@ main {
     margin: 0 auto;
     padding: 15px;
 }
-
+#firstsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#firstsection p{
+    width: 75%;
+    margin-top: 2rem;
+}
+#firstsection h1{
+    text-transform: unset;
+}
+#intro{
+    width: 60%;
+}
 h1 {
     font-family: "AbrilFatface";
     text-transform: uppercase;
@@ -34,12 +52,19 @@ h1 {
     font-size: 2.5rem;
     color: #d05270;
 }
-
+#subtitle{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
 .macbwebp {
     width: 50%;
     height: 50%;
 }
-
+.illus{
+    max-width: 40%;
+    max-height: 400px;
+    box-sizing: border-box;
+}
 h3 {
     margin: 0;
 }
@@ -83,13 +108,34 @@ img {
 .articleholder>div {
     width: 50%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 2rem;
 }
-
+.articleholder img{
+    width: 95%;
+}
+.maj{
+    text-transform: uppercase;
+    color: #d05270;
+    margin: 2rem 0;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+.date{
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 main {
     text-justify: auto;
     justify-content: space-around;
 }
-
+.articleholder h3{
+    margin-bottom: 1rem;
+    color: #d05270;
+}
 header {
     display: flex;
     flex-direction: row;
