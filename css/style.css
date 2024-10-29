@@ -1,7 +1,17 @@
+@font-face {
+	font-family: "AbrilFatface";
+	src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
 * {
     margin: 0%;
 }
-
+body{
+    font-family: "Montserrat";
+}
 main {
     display: flex;
     flex-direction: column;
@@ -13,6 +23,7 @@ main {
 }
 
 h1 {
+    font-family: "AbrilFatface";
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: left;
@@ -25,12 +36,9 @@ h1 {
     height: 50%;
 }
 
-
 h3 {
     margin: 0;
 }
-
-
 
 img {
     max-width: 90vw;
@@ -41,7 +49,6 @@ img {
     width: 200px;
     justify-content: space-evenly;
     color: #ffffff;
-
 }
 
 #X,
@@ -53,21 +60,22 @@ img {
     background-color: #1275b1;
 }
 
-.flexbox li {
-    list-style: none;
-    height: 160px;
-    width: 160px;
-    margin: 10px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-}
-
 .flex {
     display: flex;
     justify-content: space-between;
     width: 1000px;
+}
+.articleholder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.articleholder>div{
+    width: 50%;
+    box-sizing: border-box;
 }
 
 main {
@@ -75,38 +83,31 @@ main {
     justify-content: space-around;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    margin-top: 30px;
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: fit-content;
+	box-sizing: border-box;
 }
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-nav ul li {
-    margin: 0 20px;
-    color: grey;
-    font-size: 0.9rem;
-}
-
-nav ul a {
+nav{
+	width: 40%;
     color: grey;
     text-decoration: none;
 }
-
-nav ul li:first-child a {
-    color: #1b0ca3;
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
 }
 
-nav a {
+a {
     text-decoration: none;
 }
 
-nav a:hover {
-    color: #1b0ca3;
+.active {
+	color:#5A47abff;
 }
