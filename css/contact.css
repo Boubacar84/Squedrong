@@ -1,0 +1,74 @@
+@font-face {
+	font-family: "AbrilFatface";
+	src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+* {
+	margin: 0%;
+}
+body{
+	font-family: "Montserrat";
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 90%;
+	background: white;
+	margin: 0 auto;
+	padding: 15px;
+}
+h1 {
+	font-family: "AbrilFatface";
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	font-size: 2.5rem;
+	color: #d05270;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: fit-content;
+	box-sizing: border-box;
+}
+nav{
+	width: 40%;
+}
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+}
+h3 {
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #888;
+	text-transform: uppercase;
+}
+.active{
+	color:#5A47abff;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	font-size: 1.2rem;
+}
+main img{
+	max-width: 20vw;
+}
+input, textarea, label{
+	margin-top: 0.5rem;
+
+}
