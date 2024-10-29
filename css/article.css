@@ -1,26 +1,112 @@
-* {
-    margin: 0%;
-}
-
-main {
-    display: flex;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 h1 {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: left;
-    font-size: 2.5rem;
+    color: #d05270;
+    font-family: Abril Fatface;
+}
+
+h2,
+h3 {
+    color: #3a0ca3;
+
+}
+
+.couleur {
     color: #d05270;
 }
 
-.macbook {
-    width: 50%;
-    height: 50%;
+.image img {
+    margin: auto;
+    height: 70%;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.image {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+body {
+    padding: 100px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    width: 60%;
+    margin: auto;
+
+}
+
+.img img {
+    margin: 10%;
+    width: 80%;
+    padding-left: 1rem;
+    padding-top: 5rem;
+
+}
+
+.icone img {
+    margin: auto;
+
+}
+
+footer {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.apropos {
+    width: 60%;
+}
+
+.img {
+    width: 40%;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+}
+
+nav img {
+    transform: translateX(-20px);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+    color: grey;
+    font-size: 0.9rem;
+}
+
+nav ul a {
+    color: grey;
+    text-decoration: none;
+}
+
+nav ul li:first-child a {
+    color: #1b0ca3;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #1b0ca3;
 }
